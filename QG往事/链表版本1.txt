@@ -1,0 +1,320 @@
+//2、读取文件
+	public static String readFileByLines(File file,String nameone , String nametwo) {
+        //File file = new File(fileName);
+		head = new Linked().init(head); 
+        BufferedReader reader = null;
+        try {
+            //System.out.println("以行为单位读取文件内容，一次读一整行：");
+            reader = new BufferedReader(new FileReader(file));
+            String tempString = null;
+            int line = 1;
+            // 一次读入一行，直到读入null为文件结束
+            while ((tempString = reader.readLine()) != null) {
+            	
+            	NameUtil n = new NameUtil();
+        		fuction = n.judgefuction(tempString);//获取方程类型
+        		judge = n.judgewho(tempString);//获取角色
+        		
+        		Linked L = new Linked();
+        		name = n.Name(tempString);           	
+        		if(line == 1)//第一行，要初始化链表
+            	{          	
+            		/*NameUtil n = new NameUtil();
+            		fuction = n.judgefuction(tempString);//获取方程类型
+            		judge = n.judgewho(tempString);//获取角色
+            		
+            		Linked L = new Linked();
+            		name = n.Name(tempString);*/
+            		//head = new Linked().init(head);
+            		//if((name[0].equals(nameone) && name[1].equals(nametwo)) || (name[1].equals(nameone) && name[0].equals(nametwo)))
+            		//{
+            			if(fuction == 1) //方程类型1
+            			{
+            				if(judge == 1)//爸爸
+            				{
+            					LinkedNode father = new LinkedNode(name[0], null,null,null, null, null, null, null, null, null, null);
+            					LinkedNode frist1 = new LinkedNode(name[1], null,null,null, null, null, null, null, null, null, null);
+            					frist1.father = father;
+            					father.son = frist1;
+            					L.add(head, frist1);
+            					L.add(head, father);  
+            				}
+            				if(judge == 2)//爷爷
+            				{
+            					LinkedNode grandpa = new LinkedNode(name[0], null,null,null, null, null, null, null, null, null, null);
+            					LinkedNode frist1 = new LinkedNode(name[1],null,null, null, null, null, null, null, null, null, null);
+            					frist1.grandpa = grandpa;
+            					grandpa.grandson = frist1;
+            					L.add(head, frist1);
+            					L.add(head, grandpa);  
+            				}
+            				if(judge == 3)//儿子
+            				{
+            					LinkedNode son = new LinkedNode(name[0], null,null,null, null, null, null, null, null, null, null);
+            					LinkedNode frist1 = new LinkedNode(name[1],null,null, null, null, null, null, null, null, null, null);
+            					son.father = frist1;
+            					frist1.son = son;
+            					L.add(head, frist1);
+            					L.add(head, son);  
+            				}
+            				if(judge == 4)//哥哥
+            				{
+            					LinkedNode brother = new LinkedNode(name[0],null,null, null, null, null, null, null, null, null, null);
+            					LinkedNode frist1 = new LinkedNode(name[1],null,null, null, null, null, null, null, null, null, null);
+            					frist1.bigbro = brother;
+            					brother.littbro = frist1;
+            					L.add(head, frist1);
+            					L.add(head, brother);  
+            				}
+            				if(judge == 5)//弟弟
+            				{
+            					LinkedNode brother = new LinkedNode(name[0],null,null, null, null, null, null, null, null, null, null);
+            					LinkedNode frist1 = new LinkedNode(name[1],null,null, null, null, null, null, null, null, null, null);
+            					brother.bigbro = frist1;
+            					frist1.littbro = brother;
+            					L.add(head, frist1);
+            					L.add(head, brother); 
+            				}
+            				if(judge == 6)//兄弟
+            				{
+            					LinkedNode brother = new LinkedNode(name[0], null,null,null, null, null, null, null, null, null, null);
+            					LinkedNode frist1 = new LinkedNode(name[1],null,null, null, null, null, null, null, null, null, null);
+            					brother.brother = frist1;
+            					frist1.brother = brother;
+            					L.add(head, frist1);
+            					L.add(head, brother); 
+            				}           				
+            			}
+            			           			           			          			            			
+            			else if(fuction == 2)//方程类型2
+            			{
+            				
+            				if(judge == 1)//爸爸
+            				{
+            					LinkedNode father = new LinkedNode(name[1], null,null,null, null, null, null, null, null, null, null);
+            					LinkedNode frist1 = new LinkedNode(name[0], null,null,null, null, null, null, null, null, null, null);
+            					frist1.father = father;
+            					father.son = frist1;
+            					L.add(head, frist1);
+            					L.add(head, father);  
+            				}
+            				if(judge == 2)//爷爷
+            				{
+            					LinkedNode grandpa = new LinkedNode(name[1],null,null,null, null, null, null, null, null, null, null);
+            					LinkedNode frist1 = new LinkedNode(name[0],null,null, null, null, null, null, null, null, null, null);
+            					frist1.grandpa = grandpa;
+            					grandpa.grandson = frist1;
+            					L.add(head, frist1);
+            					L.add(head, grandpa);  
+            				}
+            				if(judge == 3)//儿子
+            				{
+            					LinkedNode son = new LinkedNode(name[1], null,null,null, null, null, null, null, null, null, null);
+            					LinkedNode frist1 = new LinkedNode(name[0], null,null,null, null, null, null, null, null, null, null);
+            					son.father = frist1;
+            					frist1.son = son;
+            					L.add(head, frist1);
+            					L.add(head, son);  
+            				}
+            				if(judge == 4)//哥哥
+            				{
+            					LinkedNode brother = new LinkedNode(name[1], null,null,null, null, null, null, null, null, null, null);
+            					LinkedNode frist1 = new LinkedNode(name[0],null,null, null, null, null, null, null, null, null, null);
+            					frist1.bigbro = brother;
+            					brother.littbro = frist1;
+            					L.add(head, frist1);
+            					L.add(head, brother);  
+            				}
+            				if(judge == 5)//弟弟
+            				{
+            					LinkedNode brother = new LinkedNode(name[1],null,null, null, null, null, null, null, null, null, null);
+            					LinkedNode frist1 = new LinkedNode(name[0],null,null, null, null, null, null, null, null, null, null);
+            					brother.bigbro = frist1;
+            					frist1.littbro = brother;
+            					L.add(head, frist1);
+            					L.add(head, brother); 
+            				}
+            				if(judge == 6)//兄弟
+            				{
+            					LinkedNode brother = new LinkedNode(name[1],null,null, null, null, null, null, null, null, null, null);
+            					LinkedNode frist1 = new LinkedNode(name[0], null,null,null, null, null, null, null, null, null, null);
+            					brother.brother = frist1;
+            					frist1.brother = brother;
+            					L.add(head, frist1);
+            					L.add(head, brother); 
+            				}          				
+            			}
+            			
+            		}	           		       		
+            //}
+            	
+            	//除去第一行，就不用初始化了
+            	else
+            	{
+            		if(fuction == 1) //方程类型1
+        			{
+        				if(judge == 1)//爸爸
+        				{
+        					LinkedNode re = L.isExist(head,name[0]);
+        					LinkedNode re1 = L.isExist(head,name[1]);
+        					if(re == head && re1 == head)
+        					{
+        						LinkedNode father = new LinkedNode(name[0],null,null, null, null, null, null, null, null, null, null);
+        						LinkedNode frist1 = new LinkedNode(name[1], null,null,null, null, null, null, null, null, null, null);
+        						frist1.father = father;
+        						father.son = frist1;
+        						L.add(head, frist1);
+        						L.add(head, father);  
+        					}
+        					else if(re1 ==head && re != head)
+        					{
+        						LinkedNode frist1 = new LinkedNode(name[1], null,null,null, null, null, null, null, null, null, null);
+        						if(re.son == null) //没有子节点
+        						{
+        							re.son = frist1;
+        							frist1.father = re;
+        							L.add(head,frist1);
+        						}
+        						else //已经有了一个子节点
+        						{
+        							re.son.brother = frist1;
+        							L.add(head, frist1);
+        						}
+        						
+        					}
+        					else if(re1 != head && re == head)
+        					{
+        						LinkedNode father = new LinkedNode(name[0], null,null,null, null, null, null, null, null, null, null);
+        						re1.father = father;
+        						father.son = re1;
+        						L.add(head, father);
+        					} 
+        				}
+        				if(judge == 2)//爷爷
+        				{
+        					LinkedNode grandpa = new LinkedNode(name[0], null,null,null, null, null, null, null, null, null, null);
+        					LinkedNode frist1 = new LinkedNode(name[1], null,null,null, null, null, null, null, null, null, null);
+        					frist1.grandpa = grandpa;
+        					grandpa.grandson = frist1;
+        					L.add(head, frist1);
+        					L.add(head, grandpa);  
+        				}
+        				if(judge == 3)//儿子
+        				{
+        					LinkedNode son = new LinkedNode(name[0], null,null,null, null, null, null, null, null, null, null);
+        					LinkedNode frist1 = new LinkedNode(name[1], null,null,null, null, null, null, null, null, null, null);
+        					son.father = frist1;
+        					frist1.son = son;
+        					L.add(head, frist1);
+        					L.add(head, son);  
+        				}
+        				if(judge == 4)//哥哥
+        				{
+        					LinkedNode brother = new LinkedNode(name[0], null,null,null, null, null, null, null, null, null, null);
+        					LinkedNode frist1 = new LinkedNode(name[1],null,null, null, null, null, null, null, null, null, null);
+        					frist1.bigbro = brother;
+        					brother.littbro = frist1;
+        					L.add(head, frist1);
+        					L.add(head, brother);  
+        				}
+        				if(judge == 5)//弟弟
+        				{
+        					LinkedNode brother = new LinkedNode(name[0],null,null, null, null, null, null, null, null, null, null);
+        					LinkedNode frist1 = new LinkedNode(name[1],null,null, null, null, null, null, null, null, null, null);
+        					brother.bigbro = frist1;
+        					frist1.littbro = brother;
+        					L.add(head, frist1);
+        					L.add(head, brother); 
+        				}
+        				if(judge == 6)//兄弟
+        				{
+        					LinkedNode brother = new LinkedNode(name[0], null,null,null, null, null, null, null, null, null, null);
+        					LinkedNode frist1 = new LinkedNode(name[1],null,null, null, null, null, null, null, null, null, null);
+        					brother.brother = frist1;
+        					frist1.brother = brother;
+        					L.add(head, frist1);
+        					L.add(head, brother); 
+        				}           				
+        			}
+        			           			           			          			            			
+        			if(fuction == 2)//方程类型2
+        			{
+        				
+        				if(judge == 1)//爸爸
+        				{
+        					LinkedNode father = new LinkedNode(name[1],null,null, null, null, null, null, null, null, null, null);
+        					LinkedNode frist1 = new LinkedNode(name[0],null,null, null, null, null, null, null, null, null, null);
+        					frist1.father = father;
+        					father.son = frist1;
+        					L.add(head, frist1);
+        					L.add(head, father);  
+        				}
+        				if(judge == 2)//爷爷
+        				{
+        					LinkedNode grandpa = new LinkedNode(name[1], null,null,null, null, null, null, null, null, null, null);
+        					LinkedNode frist1 = new LinkedNode(name[0], null,null,null, null, null, null, null, null, null, null);
+        					frist1.grandpa = grandpa;
+        					grandpa.grandson = frist1;
+        					L.add(head, frist1);
+        					L.add(head, grandpa);  
+        				}
+        				if(judge == 3)//儿子
+        				{
+        					LinkedNode son = new LinkedNode(name[1], null,null,null, null, null, null, null, null, null, null);
+        					LinkedNode frist1 = new LinkedNode(name[0],null,null, null, null, null, null, null, null, null, null);
+        					son.father = frist1;
+        					frist1.son = son;
+        					L.add(head, frist1);
+        					L.add(head, son);  
+        				}
+        				if(judge == 4)//哥哥
+        				{
+        					LinkedNode brother = new LinkedNode(name[1],null,null ,null, null, null, null, null, null, null, null);
+        					LinkedNode frist1 = new LinkedNode(name[0], null,null,null, null, null, null, null, null, null, null);
+        					frist1.bigbro = brother;
+        					brother.littbro = frist1;
+        					L.add(head, frist1);
+        					L.add(head, brother);  
+        				}
+        				if(judge == 5)//弟弟
+        				{
+        					LinkedNode brother = new LinkedNode(name[1], null,null,null, null, null, null, null, null, null, null);
+        					LinkedNode frist1 = new LinkedNode(name[0], null,null,null, null, null, null, null, null, null, null);
+        					brother.bigbro = frist1;
+        					frist1.littbro = brother;
+        					L.add(head, frist1);
+        					L.add(head, brother); 
+        				}
+        				if(judge == 6)//兄弟
+        				{
+        					LinkedNode brother = new LinkedNode(name[1], null,null,null, null, null, null, null, null, null, null);
+        					LinkedNode frist1 = new LinkedNode(name[0], null,null,null, null, null, null, null, null, null, null);
+        					brother.brother = frist1;
+        					frist1.brother = brother;
+        					L.add(head, frist1);
+        					L.add(head, brother); 
+        				}          				
+        			}
+            	}
+                line++;
+            }
+            result1 = L.bianli(head, nameone,nametwo);
+            result2 = L.bianli(head, nametwo,nameone);
+            System.out.println(nameone);
+            System.out.println(nametwo);
+            System.out.println(result1);
+            System.out.println(result2);
+            reader.close();
+            return result1 + "\n" + result2;
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
+            if (reader != null) {
+                try {
+                    reader.close();
+                } catch (IOException e1) {
+                }
+            }
+        }
+        return result1 + "\n" + result2;
+    }

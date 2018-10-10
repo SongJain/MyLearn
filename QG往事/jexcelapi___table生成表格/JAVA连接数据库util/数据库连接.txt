@@ -1,0 +1,52 @@
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
+//与数据库建立连接   BaseDao获取建立的连接   然后传给每个交互的model
+public class Dbutil {
+	private String dburl = "jdbc:mysql://localhost:3306/qg_student";
+	private String dbUsername = "root";//用户
+	private String dbPassword = "*****";//密码
+	private String jdbcname = "com.mysql.jdbc.Driver";//驱动名称
+	static String URL ="jdbc:mysql://gz-cdb-0ymb7ubq.sql.tencentcdb.com:62736/qg_stu";//腾讯云数据库
+	
+	//获取数据库连接
+	public Connection getcon()
+	{
+		try {
+			Class.forName(jdbcname);      //加载驱动
+		}catch(Exception e) {
+			e.printStackTrace();    //打印异常
+		}
+		Connection con = null;
+		
+		try {
+			con = DriverManager.getConnection(dburl, dbUsername, dbPassword);
+		}catch(SQLException e) {
+			e.printStackTrace();   //打印异常
+		}
+		return con;
+	}
+	
+	
+	//关闭数据库连接
+	public void closecon(Connection con)throws Exception
+	{
+		if(con != null)
+		{
+			con.close();          //关闭数据库
+		}
+	}
+	
+	public static void main(String[] args)
+	{
+		Dbutil dbutil = new Dbutil();
+		try {
+			dbutil.getcon();
+			System.out.println("数据库连接成功");
+		}catch(Exception e) {
+			e.getStackTrace();
+			System.out.println("数据库连接失败");
+		}
+	}
+}
