@@ -1,0 +1,1122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="BaseProjectSSM:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/BaseProjectSSM/src/com/ischoolbar/programmer/controller/admin/SystemController.java" line="155" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bcb64c40-0ace-4cce-9265-99dd6dc88a45" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="untitled" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BaseProjectSSM/src/com/ischoolbar/programmer/controller/admin/SystemController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4623">
+              <caret line="223" column="35" selection-start-line="223" selection-start-column="35" selection-end-line="223" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BaseProjectSSM/src/config/mybatis/mapper/admin/UserMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="19" column="63" selection-start-line="19" selection-start-column="63" selection-end-line="19" selection-end-column="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BaseProjectSSM/src/com/ischoolbar/programmer/dao/admin/UserDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BaseProjectSSM/web/WEB-INF/views/system/edit_password.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="9" column="77" selection-start-line="9" selection-start-column="77" selection-end-line="9" selection-end-column="77" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="MapperXml" />
+        <option value="Jsp File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>resources</find>
+      <find>datagr</find>
+      <find>search-</find>
+      <find>search-name</find>
+      <find>search-btn</find>
+      <find>上级菜单</find>
+      <find>getSelected</find>
+      <find>data-datagrid</find>
+      <find>getS</find>
+      <find>tree</find>
+      <find>data</find>
+      <find>../</find>
+      <find>edit-name</find>
+      <find>load</find>
+      <find>clear</find>
+      <find>url</find>
+      <find>resource</find>
+      <find>username</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/BaseProjectSSM/web/WEB-INF/errors/500.jsp" />
+        <option value="$PROJECT_DIR$/BaseProjectSSM/web/WEB-INF/views/system/welcome.jsp" />
+        <option value="$PROJECT_DIR$/BaseProjectSSM/web/resource/admin/easyui/js/xuanran.jsp" />
+        <option value="$PROJECT_DIR$/BaseProjectSSM/web/resource/admin/easyui/js/xuanran.js" />
+        <option value="$PROJECT_DIR$/BaseProjectSSM/src/config/springmvc/springmvc.xml" />
+        <option value="$PROJECT_DIR$/BaseProjectSSM/src/com/ischoolbar/programmer/page/admin/Page.java" />
+        <option value="$PROJECT_DIR$/BaseProjectSSM/src/com/ischoolbar/programmer/entity/admin/Menu.java" />
+        <option value="$PROJECT_DIR$/BaseProjectSSM/src/com/ischoolbar/programmer/controller/admin/MenuController.java" />
+        <option value="$PROJECT_DIR$/BaseProjectSSM/src/com/ischoolbar/programmer/entity/admin/Role.java" />
+        <option value="$PROJECT_DIR$/BaseProjectSSM/web/WEB-INF/views/common/header.jsp" />
+        <option value="$PROJECT_DIR$/BaseProjectSSM/web/WEB-INF/views/common/footer.jsp" />
+        <option value="$PROJECT_DIR$/BaseProjectSSM/web/resource/admin/easyui/easyui/1.3.3/themes/default/easyui.css" />
+        <option value="$PROJECT_DIR$/BaseProjectSSM/src/com/ischoolbar/programmer/service/admin/AuthorityService.java" />
+        <option value="$PROJECT_DIR$/BaseProjectSSM/src/com/ischoolbar/programmer/controller/admin/RoleController.java" />
+        <option value="$PROJECT_DIR$/BaseProjectSSM/src/config/mybatis/mapper/admin/AuthortyMapper.xml" />
+        <option value="$PROJECT_DIR$/BaseProjectSSM/src/com/ischoolbar/programmer/service/admin/impl/AuthorityServiceImpl.java" />
+        <option value="$PROJECT_DIR$/BaseProjectSSM/src/com/ischoolbar/programmer/dao/admin/AuthorityDao.java" />
+        <option value="$PROJECT_DIR$/BaseProjectSSM/src/com/ischoolbar/programmer/entity/admin/User.java" />
+        <option value="$PROJECT_DIR$/BaseProjectSSM/src/config/spring/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/BaseProjectSSM/src/config/mybatis/mapper/admin/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/BaseProjectSSM/src/com/ischoolbar/programmer/service/admin/RoleService.java" />
+        <option value="$PROJECT_DIR$/BaseProjectSSM/src/com/ischoolbar/programmer/dao/admin/RoleDao.java" />
+        <option value="$PROJECT_DIR$/BaseProjectSSM/src/com/ischoolbar/programmer/service/admin/impl/RoleServiceImpl.java" />
+        <option value="$PROJECT_DIR$/BaseProjectSSM/src/config/mybatis/mapper/admin/RoleMapper.xml" />
+        <option value="$PROJECT_DIR$/BaseProjectSSM/src/com/ischoolbar/programmer/service/admin/MenuService.java" />
+        <option value="$PROJECT_DIR$/BaseProjectSSM/src/com/ischoolbar/programmer/dao/admin/MenuDao.java" />
+        <option value="$PROJECT_DIR$/BaseProjectSSM/src/com/ischoolbar/programmer/service/admin/impl/MenuServiceImpl.java" />
+        <option value="$PROJECT_DIR$/BaseProjectSSM/src/config/mybatis/mapper/admin/MenuMapper.xml" />
+        <option value="$PROJECT_DIR$/BaseProjectSSM/src/com/ischoolbar/programmer/controller/admin/UserController.java" />
+        <option value="$PROJECT_DIR$/BaseProjectSSM/web/WEB-INF/views/system/index.jsp" />
+        <option value="$PROJECT_DIR$/BaseProjectSSM/src/com/ischoolbar/programmer/interceptor/admin/LoginInterceptor.java" />
+        <option value="$PROJECT_DIR$/BaseProjectSSM/web/WEB-INF/views/user/list.jsp" />
+        <option value="$PROJECT_DIR$/BaseProjectSSM/web/WEB-INF/views/menu/list.jsp" />
+        <option value="$PROJECT_DIR$/BaseProjectSSM/web/WEB-INF/views/common/menus.jsp" />
+        <option value="$PROJECT_DIR$/BaseProjectSSM/web/WEB-INF/views/role/list.jsp" />
+        <option value="$PROJECT_DIR$/BaseProjectSSM/src/com/ischoolbar/programmer/util/MenuUtil.java" />
+        <option value="$PROJECT_DIR$/BaseProjectSSM/src/com/ischoolbar/programmer/entity/admin/Authority.java" />
+        <option value="$PROJECT_DIR$/BaseProjectSSM/src/config/mybatis/mapper/admin/LogMapper.xml" />
+        <option value="$PROJECT_DIR$/BaseProjectSSM/src/com/ischoolbar/programmer/entity/admin/Log.java" />
+        <option value="$PROJECT_DIR$/BaseProjectSSM/src/com/ischoolbar/programmer/controller/admin/LogController.java" />
+        <option value="$PROJECT_DIR$/BaseProjectSSM/web/WEB-INF/views/log/list.jsp" />
+        <option value="$PROJECT_DIR$/BaseProjectSSM/src/com/ischoolbar/programmer/service/admin/LogService.java" />
+        <option value="$PROJECT_DIR$/BaseProjectSSM/src/com/ischoolbar/programmer/service/admin/impl/LogServiceImpl.java" />
+        <option value="$PROJECT_DIR$/BaseProjectSSM/src/com/ischoolbar/programmer/util/LogUtil.java" />
+        <option value="$PROJECT_DIR$/BaseProjectSSM/src/com/ischoolbar/programmer/dao/admin/LogDao.java" />
+        <option value="$PROJECT_DIR$/BaseProjectSSM/src/com/ischoolbar/programmer/service/admin/UserService.java" />
+        <option value="$PROJECT_DIR$/BaseProjectSSM/src/com/ischoolbar/programmer/dao/admin/UserDao.java" />
+        <option value="$PROJECT_DIR$/BaseProjectSSM/src/com/ischoolbar/programmer/service/admin/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/BaseProjectSSM/web/WEB-INF/views/system/login.jsp" />
+        <option value="$PROJECT_DIR$/BaseProjectSSM/src/com/ischoolbar/programmer/controller/admin/SystemController.java" />
+        <option value="$PROJECT_DIR$/BaseProjectSSM/web/WEB-INF/views/system/edit_password.jsp" />
+      </list>
+    </option>
+  </component>
+  <component name="JavaeeView">
+    <option name="frameworksView" value="false" />
+    <option name="showModules" value="false" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="false" />
+    <option name="FILTER_DEBUG" value="false" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../apache-maven-3.6.0" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="362" />
+    <option name="y" value="-3" />
+    <option name="width" value="1460" />
+    <option name="height" value="880" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="BaseProjectSSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BaseProjectSSM" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BaseProjectSSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BaseProjectSSM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BaseProjectSSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BaseProjectSSM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="programmer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BaseProjectSSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BaseProjectSSM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="programmer" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BaseProjectSSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BaseProjectSSM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BaseProjectSSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BaseProjectSSM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BaseProjectSSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BaseProjectSSM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BaseProjectSSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BaseProjectSSM" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BaseProjectSSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BaseProjectSSM" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BaseProjectSSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BaseProjectSSM" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BaseProjectSSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BaseProjectSSM" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551601716839" />
+    <property name="jsx.switch.disabled" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$/BaseProjectSSM/web/WEB-INF/views/user" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.ischoolbar.programmer.controller.admin" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\QQPCmgr\Desktop\Util\apache-tomcat-7.0.52\webapps\untitled\BaseProjectSSM\web\WEB-INF\views\system" />
+      <recent name="D:\QQPCmgr\Desktop\Util\apache-tomcat-7.0.52\webapps\untitled\BaseProjectSSM\web\WEB-INF\views" />
+      <recent name="D:\QQPCmgr\Desktop\Util\apache-tomcat-7.0.52\webapps\untitled\BaseProjectSSM\src\config\mybatis\mapper\admin" />
+      <recent name="D:\QQPCmgr\Desktop\apache-tomcat-7.0.52\webapps\untitled\BaseProjectSSM\web\resource" />
+      <recent name="D:\QQPCmgr\Desktop\apache-tomcat-7.0.52\webapps\untitled\BaseProjectSSM\web\resource\admin\easyui\images" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ischoolbar.programmer.controller.admin" />
+      <recent name="com.ischoolbar.programmer.service.admin.impl" />
+      <recent name="com.ischoolbar.programmer.dao.admin" />
+      <recent name="com.ischoolbar.programmer.entity.admin" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\QQPCmgr\Desktop\apache-tomcat-7.0.52\webapps\untitled\BaseProjectSSM\web\resource\admin\easyui\images" />
+      <recent name="D:\QQPCmgr\Desktop\后台\Tomcat\apache-tomcat-7.0.52\webapps\untitled\BaseProjectSSM\web\resource\admin" />
+      <recent name="D:\QQPCmgr\Desktop\后台\Tomcat\apache-tomcat-7.0.52\webapps\untitled\BaseProjectSSM\web\resource" />
+      <recent name="D:\QQPCmgr\Desktop\后台\Tomcat\apache-tomcat-7.0.52\webapps\untitled\BaseProjectSSM\web" />
+      <recent name="D:\QQPCmgr\Desktop\后台\Tomcat\apache-tomcat-7.0.52\webapps\untitled\BaseProjectSSM\web\WEB-INF\views\system" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 7.0.52" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.521" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="BaseProjectSSM:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/BaseProjectSSM_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_7_0_52_untitled" />
+      </server-settings>
+      <log_file alias="Tomcat Host Manager Log" path="%IDEA_RUN:CATALINA_BASE%/logs/host-manager.*" />
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file enabled="true" id="Tomcat Manager" />
+      <predefined_log_file enabled="true" id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="59079" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+        <EnvironmentVariables>
+          <option name="NAME" value="JAVA_TOOL_OPTIONS" />
+          <option name="VALUE" value="-Dfile.encoding=UTF-8" />
+          <option name="IS_PREDEFINED" value="false" />
+        </EnvironmentVariables>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="BaseProjectSSM:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bcb64c40-0ace-4cce-9265-99dd6dc88a45" name="Default Changelist" comment="" />
+      <created>1550832508147</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1550832508147</updated>
+      <workItem from="1550832525956" duration="5785000" />
+      <workItem from="1550841172110" duration="2307000" />
+      <workItem from="1550843524960" duration="2547000" />
+      <workItem from="1550849394443" duration="848000" />
+      <workItem from="1550850275288" duration="268000" />
+      <workItem from="1550850573101" duration="1422000" />
+      <workItem from="1550884843303" duration="8974000" />
+      <workItem from="1550906030781" duration="1630000" />
+      <workItem from="1550908458626" duration="663000" />
+      <workItem from="1550909153738" duration="1974000" />
+      <workItem from="1550911172793" duration="489000" />
+      <workItem from="1550911721713" duration="1632000" />
+      <workItem from="1550913536310" duration="565000" />
+      <workItem from="1550914135378" duration="271000" />
+      <workItem from="1550914431682" duration="122000" />
+      <workItem from="1550914577986" duration="2800000" />
+      <workItem from="1550924663488" duration="6000" />
+      <workItem from="1550924699684" duration="1601000" />
+      <workItem from="1550932930455" duration="3000" />
+      <workItem from="1550932959621" duration="707000" />
+      <workItem from="1551003018841" duration="2879000" />
+      <workItem from="1551006001187" duration="2459000" />
+      <workItem from="1551008559110" duration="3494000" />
+      <workItem from="1551012133053" duration="1528000" />
+      <workItem from="1551092919269" duration="2017000" />
+      <workItem from="1551095068250" duration="9156000" />
+      <workItem from="1551105426499" duration="1127000" />
+      <workItem from="1551106591900" duration="608000" />
+      <workItem from="1551107232497" duration="502000" />
+      <workItem from="1551171071650" duration="5010000" />
+      <workItem from="1551178628403" duration="284000" />
+      <workItem from="1551178945024" duration="2036000" />
+      <workItem from="1551181046128" duration="1277000" />
+      <workItem from="1551182384219" duration="854000" />
+      <workItem from="1551183271044" duration="1163000" />
+      <workItem from="1551184467184" duration="2781000" />
+      <workItem from="1551250865665" duration="2383000" />
+      <workItem from="1551253332591" duration="1693000" />
+      <workItem from="1551263851022" duration="1861000" />
+      <workItem from="1551265779683" duration="8217000" />
+      <workItem from="1551275416345" duration="2799000" />
+      <workItem from="1551356295075" duration="1844000" />
+      <workItem from="1551365919011" duration="1716000" />
+      <workItem from="1551368641197" duration="2149000" />
+      <workItem from="1551370887466" duration="1656000" />
+      <workItem from="1551488097712" duration="2296000" />
+      <workItem from="1551490474689" duration="148000" />
+      <workItem from="1551490792535" duration="1188000" />
+      <workItem from="1551492254957" duration="100000" />
+      <workItem from="1551492377648" duration="12685000" />
+      <workItem from="1551516837631" duration="1693000" />
+      <workItem from="1551518579176" duration="563000" />
+      <workItem from="1551537153817" duration="129000" />
+      <workItem from="1551580996378" duration="503000" />
+      <workItem from="1551581588058" duration="2302000" />
+      <workItem from="1551584804729" duration="9919000" />
+      <workItem from="1551601850762" duration="418000" />
+      <workItem from="1551602354644" duration="160000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="128211000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49791378" weight="0.23121387" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.50409836" side_tool="true" weight="0.26383266" />
+      <window_info id="Web" order="7" sideWeight="0.5020862" side_tool="true" weight="0.26083815" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4979757" weight="0.055474453" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.050870147" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32748538" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32931727" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.32962447" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49932525" weight="0.32823366" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5020243" side_tool="true" weight="0.5927007" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.055474453" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32894737" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="15" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Preview" order="9" weight="0.3298611" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49791378" visible="true" weight="0.23121387" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.50409836" side_tool="true" weight="0.26383266" />
+      <window_info id="Web" order="7" sideWeight="0.5020862" side_tool="true" weight="0.26083815" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4979757" visible="true" weight="0.093055554" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.050870147" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32748538" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32931727" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.32962447" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49932525" weight="0.32823366" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5020243" side_tool="true" weight="0.5927007" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.055474453" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32894737" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="15" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Preview" order="9" weight="0.3298611" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/BaseProjectSSM/src/com/ischoolbar/programmer/dao/admin/AuthorityDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BaseProjectSSM/src/config/spring/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1683">
+          <caret line="8" column="54" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BaseProjectSSM/src/com/ischoolbar/programmer/service/admin/impl/AuthorityServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="28" column="46" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#756#757#0" expanded="true" />
+            <element signature="e#814#815#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BaseProjectSSM/src/com/ischoolbar/programmer/service/admin/AuthorityService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BaseProjectSSM/src/config/mybatis/mapper/admin/AuthortyMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BaseProjectSSM/web/resource/admin/easyui/images/user_photo.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BaseProjectSSM/web/resource/admin/easyui/images/loading.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BaseProjectSSM/web/resource/upload/1544881084263.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BaseProjectSSM/web/resource/upload/1544880196161.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BaseProjectSSM/web/resource/upload/1544880711002.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BaseProjectSSM/src/com/ischoolbar/programmer/dao/admin/RoleDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BaseProjectSSM/src/com/ischoolbar/programmer/service/admin/impl/RoleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#818#819#0" expanded="true" />
+            <element signature="e#859#860#0" expanded="true" />
+            <element signature="e#906#907#0" expanded="true" />
+            <element signature="e#933#934#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BaseProjectSSM/src/config/mybatis/mapper/admin/RoleMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BaseProjectSSM/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="37" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BaseProjectSSM/src/com/ischoolbar/programmer/controller/admin/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="54" column="28" lean-forward="true" selection-start-line="54" selection-start-column="28" selection-end-line="54" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BaseProjectSSM/src/com/ischoolbar/programmer/dao/admin/MenuDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="35" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BaseProjectSSM/src/com/ischoolbar/programmer/service/admin/impl/MenuServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#612#613#0" expanded="true" />
+            <element signature="e#661#662#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BaseProjectSSM/web/WEB-INF/views/user/list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BaseProjectSSM/web/WEB-INF/views/common/menus.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BaseProjectSSM/web/WEB-INF/views/menu/list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BaseProjectSSM/src/com/ischoolbar/programmer/entity/admin/Menu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BaseProjectSSM/src/com/ischoolbar/programmer/entity/admin/Authority.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BaseProjectSSM/src/com/ischoolbar/programmer/controller/admin/RoleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="57" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BaseProjectSSM/src/com/ischoolbar/programmer/entity/admin/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" selection-start-line="4" selection-end-line="9" selection-end-column="4" />
+          <folding>
+            <element signature="e#348#349#0" expanded="true" />
+            <element signature="e#373#374#0" expanded="true" />
+            <element signature="e#407#408#0" expanded="true" />
+            <element signature="e#435#436#0" expanded="true" />
+            <element signature="e#466#467#0" expanded="true" />
+            <element signature="e#493#494#0" expanded="true" />
+            <element signature="e#533#534#0" expanded="true" />
+            <element signature="e#565#566#0" expanded="true" />
+            <element signature="e#598#599#0" expanded="true" />
+            <element signature="e#627#628#0" expanded="true" />
+            <element signature="e#671#672#0" expanded="true" />
+            <element signature="e#707#708#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BaseProjectSSM/src/com/ischoolbar/programmer/util/MenuUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BaseProjectSSM/src/config/mybatis/mapper/admin/MenuMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BaseProjectSSM/src/com/ischoolbar/programmer/service/admin/RoleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BaseProjectSSM/src/com/ischoolbar/programmer/service/admin/MenuService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BaseProjectSSM/src/com/ischoolbar/programmer/controller/admin/MenuController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BaseProjectSSM/src/com/ischoolbar/programmer/interceptor/admin/LoginInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="46" column="63" selection-start-line="46" selection-start-column="63" selection-end-line="46" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BaseProjectSSM/web/WEB-INF/views/role/list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="38" column="16" lean-forward="true" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
+          <folding>
+            <element signature="e#83#89#0" expanded="true" />
+            <element signature="e#89#95#0" expanded="true" />
+            <element signature="e#95#101#0" expanded="true" />
+            <element signature="e#101#107#0" expanded="true" />
+            <element signature="e#107#113#0" expanded="true" />
+            <element signature="e#113#119#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BaseProjectSSM/src/com/ischoolbar/programmer/entity/admin/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-552">
+          <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="10" />
+          <folding>
+            <element signature="e#318#319#0" expanded="true" />
+            <element signature="e#347#348#0" expanded="true" />
+            <element signature="e#389#390#0" expanded="true" />
+            <element signature="e#425#426#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BaseProjectSSM/src/config/mybatis/mapper/admin/LogMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="45" lean-forward="true" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BaseProjectSSM/src/com/ischoolbar/programmer/entity/admin/Log.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="38" column="22" lean-forward="true" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#305#306#0" expanded="true" />
+            <element signature="e#330#331#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BaseProjectSSM/web/WEB-INF/views/log/list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="170" selection-start-line="170" selection-end-line="170" />
+          <folding>
+            <element signature="n#style#0;n#textarea#0;n#td#1;n#tr#0;n#table#0;n#form#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#textarea#0;n#td#1;n#tr#0;n#table#0;n#form#0;n#div#2;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BaseProjectSSM/src/com/ischoolbar/programmer/util/CpachaUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BaseProjectSSM/src/com/ischoolbar/programmer/util/LogUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="25" column="30" selection-start-line="21" selection-start-column="2" selection-end-line="26" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BaseProjectSSM/src/com/ischoolbar/programmer/dao/admin/LogDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BaseProjectSSM/src/com/ischoolbar/programmer/service/admin/impl/LogServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="46" column="31" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
+          <folding>
+            <element signature="e#793#794#0" expanded="true" />
+            <element signature="e#831#832#0" expanded="true" />
+            <element signature="e#897#898#0" expanded="true" />
+            <element signature="e#940#941#0" expanded="true" />
+            <element signature="e#991#992#0" expanded="true" />
+            <element signature="e#1032#1033#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BaseProjectSSM/src/com/ischoolbar/programmer/service/admin/LogService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BaseProjectSSM/src/com/ischoolbar/programmer/service/admin/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BaseProjectSSM/src/com/ischoolbar/programmer/service/admin/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="37" column="13" lean-forward="true" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+          <folding>
+            <element signature="e#610#611#0" expanded="true" />
+            <element signature="e#659#660#0" expanded="true" />
+            <element signature="e#1148#1149#0" expanded="true" />
+            <element signature="e#1172#1173#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BaseProjectSSM/web/WEB-INF/views/system/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="62" column="31" lean-forward="true" selection-start-line="62" selection-start-column="31" selection-end-line="62" selection-end-column="31" />
+          <folding>
+            <element signature="n#style#0;n#iframe#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BaseProjectSSM/src/com/ischoolbar/programmer/controller/admin/LogController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1748">
+          <caret line="97" selection-start-line="97" selection-end-line="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BaseProjectSSM/web/WEB-INF/views/system/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="113" column="24" lean-forward="true" selection-start-line="113" selection-start-column="24" selection-end-line="113" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BaseProjectSSM/web/WEB-INF/views/common/footer.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BaseProjectSSM/web/WEB-INF/views/common/header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BaseProjectSSM/src/com/ischoolbar/programmer/controller/admin/SystemController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4623">
+          <caret line="223" column="35" selection-start-line="223" selection-start-column="35" selection-end-line="223" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BaseProjectSSM/src/config/mybatis/mapper/admin/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" column="63" selection-start-line="19" selection-start-column="63" selection-end-line="19" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BaseProjectSSM/src/com/ischoolbar/programmer/dao/admin/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BaseProjectSSM/web/WEB-INF/views/system/edit_password.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="77" selection-start-line="9" selection-start-column="77" selection-end-line="9" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>BaseProjectSSM:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>BaseProjectSSM</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
